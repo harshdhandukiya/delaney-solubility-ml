@@ -1,7 +1,7 @@
 # 🧪 Delaney Solubility Prediction Using Machine Learning
 
 ## 📌 Project Overview
-This project focuses on predicting **aqueous solubility (logS) of chemical compounds using the Delaney solubility dataset and multiple machine learning regression models.
+This project focuses on predicting aqueous solubility (logS) of chemical compounds using the Delaney solubility dataset and multiple machine learning regression models.
 
 Aqueous solubility is a critical property in drug discovery and chemical research, as it directly affects bioavailability, formulation, and therapeutic effectiveness. The objective of this project is to build, evaluate, and compare different regression models to understand how well they can predict solubility based on molecular descriptors.
 
@@ -125,43 +125,35 @@ This project is implemented as a **Jupyter Notebook** and can be run either **lo
 
 ### 🔹 Option 1: Run Locally (Recommended)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/delaney-solubility-ml.git
-   
-Navigate to the project folder:
-cd delaney-solubility-ml
-
-Open Jupyter Notebook:
-jupyter notebook
-
-Open the notebook file:
-delaney_solubility_ml.ipynb
+- Clone the repository: git clone https://github.com/your-username/delaney-solubility-ml.git
+- Navigate to the project folder: cd delaney-solubility-ml
+- Open Jupyter Notebook: jupyter notebook
+- Open the notebook file: delaney_solubility_ml.ipynb
 
 Run all cells from top to bottom to reproduce the results.
 
 
 🔹 Option 2: Run on Google Colab (No Local Setup)
-Go to https://colab.research.google.com
-Click File → Open notebook
-Select the GitHub tab
-Paste the repository URL
-Open the notebook and run all cells
+- Go to https://colab.research.google.com
+- Click File → Open notebook
+- Select the GitHub tab
+- Paste the repository URL
+- Open the notebook and run all cells
 
 📌 Requirements
 The notebook uses the following Python libraries:
-
-Python 3.x
-NumPy
-Pandas
-Matplotlib
-Scikit-learn
+- Python 3.x
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+  
 These libraries are commonly available in Jupyter Notebook and Google Colab environments.
 
 🔮 Future Improvements
-Potential enhancements include:
-Feature scaling and feature selection
-Hyperparameter tuning using GridSearchCV
-Cross-validation for robust evaluation
-Trying advanced models such as XGBoost or LightGBM
-Deploying the model as a web application
+- Potential enhancements include:
+- Feature scaling and feature selection
+- Hyperparameter tuning using GridSearchCV
+- Cross-validation for robust evaluation
+- Trying advanced models such as XGBoost or LightGBM
+- Deploying the model as a web application
