@@ -133,7 +133,8 @@ This project is implemented as a **Jupyter Notebook** and can be run either **lo
 Run all cells from top to bottom to reproduce the results.
 
 
-🔹 Option 2: Run on Google Colab (No Local Setup)
+
+### 🔹 Option 2: Run on Google Colab (No Local Setup)
 - Go to https://colab.research.google.com
 - Click File → Open notebook
 - Select the GitHub tab
